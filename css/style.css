@@ -82,7 +82,7 @@ main{
     margin-top: 100px;
 }
 .contact-banner{
-    background-image: url(../images/watch.png),url(../images/gradient1.png) ;background-repeat: no-repeat; background-size: cover; background-position: center; padding: 60px; background-blend-mode:multiply; border-radius: 10px;
+    background-image:linear-gradient(to right, #005EAB, #fff), url(../images/watch.png); background-size: cover; background-position: center; padding: 60px; background-blend-mode:multiply; border-radius: 10px;
 }
 
 .contact-title{

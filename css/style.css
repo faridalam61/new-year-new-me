@@ -2,3 +2,124 @@
     margin:0; font-family: 'Work Sans', sans-serif; font-weight: 400;
 
 }
+.btn-primary{
+    background-color: #fff; color:#0763AE; border:0; border-radius: 5px; font-weight: 700;  padding: 20px 35px; font-size: 18px;
+}
+
+.btn-primary:hover{
+    background-color: #005EAB; color:#fff; cursor: pointer;
+}
+main{
+    max-width: 1100px; margin: 0 auto;
+}
+/* Banner styles  */
+.banner{
+    display:flex; align-items: center; padding: 0 200px 0 50%;  background-image: url('../images/banner/banner3.png'); background-size: cover; background-repeat: no-repeat; height: 100vh; 
+}
+.banner-items{text-align: right;}
+
+.banner-title{
+    color: #fff; font-weight: 700; font-size: 65px;
+}
+.banner-description{
+    color: #fff; margin: 30px 0;
+}
+
+
+
+/* About section  */
+.about{
+    display: flex; align-items: center; margin-top: 100px;
+}
+
+.about-title{
+    font-size: 40px; font-weight: 700; color: #151414;
+}
+
+.about-description{
+    margin: 20px 0; line-height: 26px;
+}
+
+.failures{
+    padding: 0;  list-style: none;
+}
+.failures li{
+        padding: 10px 0 10px 40px; background-image: url("../images/icons/check-mark.png"); background-repeat: no-repeat; background-position: left center; background-size: 30px;
+}
+
+.content-section{
+    padding: 80px;
+}
+
+
+/* My plans section  */
+
+.my-plans{
+    margin-top: 100px;
+}
+
+.my-plans-title{
+    text-align: center; font-weight: 700; font-size: 40px; margin-bottom: 50px;
+}
+.plan-container{
+    display: flex; justify-content: space-around; gap: 30px;
+}
+
+.plan{
+    text-align: center;  padding: 20px;
+}
+
+.plan-title{
+    font-size: 25px; font-weight: 700; color: #151414; margin: 20px 0;
+}
+
+.plan-description{
+    color:#737272; font-size: 22px; font-weight: 500;
+}
+
+/* Contact section  */
+.contact{
+    margin-top: 100px;
+}
+.contact-banner{
+    background-image: url(../images/watch.png),url(../images/gradient1.png) ;background-repeat: no-repeat; background-size: cover; background-position: center; padding: 60px; background-blend-mode:multiply; border-radius: 10px;
+}
+
+.contact-title{
+    color: #fff; font-size: 45px; margin: 0 40% 30px 0; font-weight: 700;
+}
+
+/* Footer section  */
+footer{
+    padding:120px; background: #151414; margin-top: 100px; display: flex; justify-content: space-between;
+}
+
+.get-in-touch{
+    width: 60%;
+}
+
+.footer-title{
+    color: #fff; font-size: 40px; font-weight: 700;
+}
+
+.footer-text{
+    color:#fff; margin: 20px 0; line-height: 25px; padding-right: 50px;
+}
+
+.email, .phone{
+    color: #fff; margin: 20px 0;
+}
+
+.subscription{width: 40%; padding: 0 30px 0 250px;}
+.subs-title{color:#fff; font-size: 25px; font-weight: 500;}
+footer input[type=email]{
+    width: 100%; background-color: #151414; color:#fff;  border: 1px solid #fff; border-radius:8px; padding:15px; margin: 20px 0;
+}
+
+footer input[type=submit]{
+    background-color: #005FAC; color:#fff; padding:18px 35px; font-size: 18px; font-weight: 500; border: 0; border-radius: 6px;
+}
+
+footer input[type=submit]:hover{
+    background-color: #fff; color:#005EAB; cursor: pointer;
+}

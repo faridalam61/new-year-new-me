@@ -14,9 +14,9 @@ main{
 }
 /* Banner styles  */
 .banner{
-    display:flex; align-items: center; padding: 0 200px 0 50%;  background-image: url('../images/banner/banner3.png'); background-size: cover; background-repeat: no-repeat; height: 100vh; 
+    padding:10% 10% 10% 50%;  background-image: url('../images/banner/banner3.png'); background-size: cover; background-repeat: no-repeat; text-align: right;  max-height: 800px;
 }
-.banner-items{text-align: right;}
+
 
 .banner-title{
     color: #fff; font-weight: 700; font-size: 65px;

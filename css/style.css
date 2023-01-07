@@ -3,11 +3,11 @@
 
 }
 .btn-primary{
-    background-color: #fff; color:#0763AE; border:0; border-radius: 5px; font-weight: 700;  padding: 20px 35px; font-size: 18px;
+    background-color: #fff; color:#0763AE; border:0; border-radius: 5px; font-weight: 700;  padding: 20px 35px; font-size: 18px; border: 1px solid transparent;
 }
 
 .btn-primary:hover{
-    background-color: #005EAB; color:#fff; cursor: pointer;
+   cursor: pointer; border: 1px solid #fff; background: transparent; color:#fff
 }
 main{
     max-width: 1100px; margin: 0 auto;
@@ -82,7 +82,7 @@ main{
     margin-top: 100px;
 }
 .contact-banner{
-    background-image:linear-gradient(to right, #005EAB, #fff), url(../images/watch.png); background-size: cover; background-position: center; padding: 60px; background-blend-mode:multiply; border-radius: 10px;
+    background-image:linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png); background-size: cover; background-position: center; padding: 60px;  border-radius: 10px;
 }
 
 .contact-title{
@@ -123,3 +123,27 @@ footer input[type=submit]{
 footer input[type=submit]:hover{
     background-color: #fff; color:#005EAB; cursor: pointer;
 }
+
+
+/* Own section style  */
+
+.technologies{margin-top:100px}
+.technologies .container{
+    display: flex; gap: 25px;
+}
+.technologie{
+    width: 25%; text-align: center;  border: 1px solid #FFEEEE; padding: 20px; box-shadow:0px 6px 50px rgba(0, 0, 0, 0.04); border-radius: 0 50px 0 50px;
+}
+
+.technologie:hover{background:#FFEEEE; cursor: pointer;}
+.title{
+    font-size: 45px; font-weight: 700; text-align: center; margin-bottom: 50px; 
+}
+
+.tech-title{
+    font-size: 26px; font-weight: 700; color:#151414; margin: 10px 0;
+}
+
+.react, .node{width: 80px;}
+.mongo{width: 40px;}
+.express{width: 180px; margin: 25px 0 10px;}
